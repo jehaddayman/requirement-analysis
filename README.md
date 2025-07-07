@@ -60,7 +60,24 @@ A Use Case Diagram is a visual representation of the interactions between users 
 - Enhances communication with non-technical stakeholders.
 - Serves as a foundation for functional requirements.
 
-![Use Case Diagram](alx-booking-uc.png)
+        +---------------------+
+        |     Developer       |
+        +---------------------+
+               |      ^
+        uses   |      |  triggers
+               v      |
+      +------------------------+
+      | Repository Validation  |
+      |        System          |
+      +------------------------+
+       |            |
+       |            |
+   [Use Case 1]   [Use Case 2]
+   Check README   Check Image File
+       |            |
+       |            |
+   [Outcome 1]   [Outcome 2]
+ README OK?     Image File OK?
 
 ## Acceptance Criteria
 
