@@ -60,25 +60,14 @@ A Use Case Diagram is a visual representation of the interactions between users 
 - Enhances communication with non-technical stakeholders.
 - Serves as a foundation for functional requirements.
 
-        +---------------------+
-        |     Developer       |
-        +---------------------+
-               |      ^
-        uses   |      |  triggers
-               v      |
-      +------------------------+
-      | Repository Validation  |
-      |        System          |
-      +------------------------+
-       |            |
-       |            |
-   [Use Case 1]   [Use Case 2]
-   Check README   Check Image File
-       |            |
-       |            |
-   [Outcome 1]   [Outcome 2]
- README OK?     Image File OK?
+  ## 🧩 Use Case Diagram
 
+    +---------------------+
+    |     Developer       |
+    +---------------------+
+           |      ^
+    ...
+  
 ## Acceptance Criteria
 
 Acceptance Criteria define specific conditions that a software feature must satisfy to be accepted by the end-user or stakeholder. It ensures that development aligns with business expectations.
